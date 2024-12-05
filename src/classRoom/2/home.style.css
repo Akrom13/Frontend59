@@ -1,0 +1,46 @@
+body{
+    background-color: burlywood
+}
+h1 {
+    color: rgb(21, 63, 97);
+    text-align: center;
+}
+.fio {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+#Hannibal {
+    width: 300px;
+    display: block;
+    border-radius: 20px;
+}
+#Hannibal:hover {
+    width: 500px;
+    transition: 2s;
+
+}
+#gamilkar {
+    width: 300px;
+    display: block;
+    border-radius: 20px;
+}
+#gamilkar:hover {
+    width: 500px;
+    transition: 2s;
+
+}
+.leo {
+    color: blue;
+}
+
+#sect {
+    text-decoration: none;
+    color:red;
+    font-size: 15px;
+    font-weight: bold;
+}
+#sect:hover {
+    font-size: 20px;
+    color:green;
+    transition: 1s;
+}

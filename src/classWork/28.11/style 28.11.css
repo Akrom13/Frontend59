@@ -1,0 +1,51 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fio {
+    color: blue;
+    text-align: center;
+}
+#Bear {
+    width: 300px;
+    display: block;
+}
+input{
+    display: block;
+}
+label{
+    display: block;
+}
+input[type="checkbox"]{
+    display: inline;
+}
+.skillsList li{
+    font-size: 25px;
+    color: green;
+    list-style-type: none;
+    transition: .5s;
+}
+.skillsList li:first-child{
+    color: red;
+    cursor: pointer;
+    font-size: 35px;
+}
+.skillsList li:last-child{
+    color: blue;
+}
+.skillsList li:nth-child(3n+2){
+    color: purple;
+}
+.skillsList li::after {
+    content:";";
+}
+.skillsList li:last-child::after{
+    content: "!";
+}
+.skillsList li::before{
+    content:"⭐";
+}
+.skillsList li:hover::before{
+    content:"💀"
+}

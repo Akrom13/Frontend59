@@ -1,0 +1,29 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    display: block;
+}
+label{
+    display: block;
+}
+.calc,.courseSale,.registration{
+    background-color: aqua;
+    padding: 20px 30px;
+    width: 500px;
+    margin:0 auto 50px;
+}
+#procent{
+    display: flex;
+}
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Отступ между чекбоксом и текстом */
+}
+
+label input[type="checkbox"] {
+    margin: 0; /* Убираем лишние отступы вокруг чекбокса */
+}
+

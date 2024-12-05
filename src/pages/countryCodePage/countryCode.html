@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Code Page</title>
+    <link rel="stylesheet" href="./countryCode.css">
+</head>
+<body>
+    <h1>Оператор телефонных номеров:</h1>
+    <form action="#">
+        <label for="">
+            Введите номер телефона
+            <input type="text" name="" id="outputOfCountries" placeholder="+99" onchange="selection()">
+        </label>
+        <label for="">
+            Укажите страну
+            <select name="" id="selectionOfCountries" onchange="selection()">
+                <option value="none">Выберите страну</option>
+                <option value="af">Африка</option>
+                <option value="usa">Америка</option>
+                <option value="ru">Россия</option>
+            </select>
+        </label>
+    </form>
+    <script src="./countryCode.js"></script>
+</body>
+</html>

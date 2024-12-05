@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calc">
+        <h2>Калькулятор площади прямоугольника</h2>
+        <label for="">
+            a=
+            <input type="text" name="" id="sideA">
+        </label>
+        <label for="">
+            b=
+            <input type="text" name="" id="sideB">
+        </label>
+        <button id="calcButton">Посчитать</button>
+    </div>
+    <div class="courseSale">
+        <h2>Калькулятор стоимость обучения</h2>
+        <label for="">
+            Курс:
+            <select name="" id="courseName" oninput="courseSale()">
+                <option value="none">Выберите курс</option>
+                <option value="py">Python</option>
+                <option value="fr">Frontend</option>
+                <option value="ux">UX/UI</option>
+            </select>
+        </label>
+        <label id="procent" for="">
+            Скидка:
+            <input type="range" min="0" max="50" step="5" value="0" oninput="courseSale()" id="discountRange">
+            <span id="discountValue">0%</span>
+        </label>
+        <label for="">
+            Сумма:
+            <input type="text" id="sale" readonly>
+        </label>
+    </div>
+    <div class="registration">
+        <h2>Оставить заявку</h2>
+        <label for="">
+            Имя:
+            <input type="text" id="name">
+        </label>
+        <label for="">
+            Страна:
+            <select name="" id="country">
+                <option value="uz">Узбекистан</option>
+                <option value="kz">Казахстан</option>
+                <option value="us">Америка</option>
+            </select>
+        </label>
+        <label for="">
+            Телефон:
+            <input type="tel" id="phone">
+        </label>
+        <label for="">
+            <input type="checkbox" id="check" required>
+            Потвердите обработку данных
+        </label>
+        <button id="btn" disabled>Отправить</button>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
