@@ -26,4 +26,9 @@ label {
 label input[type="checkbox"] {
     margin: 0; /* Убираем лишние отступы вокруг чекбокса */
 }
-
+@media (max-width:1440px) {
+    body{
+        background-color: aqua;
+        color: red;
+    }
+}
