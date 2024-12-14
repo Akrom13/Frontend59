@@ -78,6 +78,11 @@ h1{
     font-size: 18px;
     cursor: pointer;
 }
+
+
+
+
+
 h2{
     width: calc(48.7vw + 145.2px);/*769-328*/
     height: calc(6.2vw + 56.8px);/*136-80*/
