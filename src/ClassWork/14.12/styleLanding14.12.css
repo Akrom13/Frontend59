@@ -93,5 +93,33 @@ h2{
 .course-options{
     display: flex;
     flex-wrap: wrap;
-    
+}
+
+
+
+
+h2{
+    font-size: calc(2.8vw + 25px);
+    text-transform: uppercase;
+    font-weight: 500px;
+    margin-bottom: calc(7.7vw + 9px);
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 120px;
+    margin-bottom: calc(2.4vw + 21px);
+}
+.contentCard{
+    width: calc(8vw + 298px);
+}
+.contentCard h3{
+    font-weight: 600;
+    font-size: calc(1vw + 14.2px);
+    margin-bottom: calc(1.1vw + 9px);
+    text-transform: uppercase;
+    line-height: 140%;
+}
+.contentCard p{
+    font-size: calc(1vw + 14.2px);
 }
